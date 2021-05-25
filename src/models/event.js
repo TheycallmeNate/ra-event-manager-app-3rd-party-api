@@ -33,6 +33,10 @@ const eventSchema = new mongoose.Schema({
     required: true,
   },
   tags: Array,
+  image: {
+    type: String,
+    required: true,
+  },
 });
 
 const Event = mongoose.model("Event", eventSchema);
