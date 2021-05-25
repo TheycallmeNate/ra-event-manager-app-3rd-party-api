@@ -12,5 +12,3 @@ Here is your task:
    - append the image in the response as the event's image.
 
    - Submit a link to your publicly accessible repository
-
-3. Submit a link to your repository

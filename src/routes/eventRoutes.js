@@ -11,8 +11,9 @@ const {
   authenticateUser,
   checkIfAdmin,
 } = require("../middlewares/authentication");
+const { getEventImage } = require("../middlewares/getEventImage");
 
-router.post("/events", authenticateUser, createNewEvent);
+router.post("/events", authenticateUser, getEventImage, createNewEvent);
 
 router.get("/events", authenticateUser, fetchEvents);
 

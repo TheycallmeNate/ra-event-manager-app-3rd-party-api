@@ -35,7 +35,6 @@ const eventSchema = new mongoose.Schema({
   tags: Array,
   image: {
     type: String,
-    required: true,
   },
 });
 
